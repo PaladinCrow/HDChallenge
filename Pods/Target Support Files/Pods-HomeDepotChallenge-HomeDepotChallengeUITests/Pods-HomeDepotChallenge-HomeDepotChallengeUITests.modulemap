@@ -1,0 +1,6 @@
+framework module Pods_HomeDepotChallenge_HomeDepotChallengeUITests {
+  umbrella header "Pods-HomeDepotChallenge-HomeDepotChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

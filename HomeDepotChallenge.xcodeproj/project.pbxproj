@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20E80859DE147E9019951ADF /* Pods_HomeDepotChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A467F50F460F87713579BB5 /* Pods_HomeDepotChallengeTests.framework */; };
+		319ADAA2D628490941BBEAAC /* Pods_HomeDepotChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91242F7244B4EE61F5B3355B /* Pods_HomeDepotChallenge.framework */; };
+		3C0CCB0C25D4455300B62708 /* NewFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CCB0B25D4455300B62708 /* NewFeedCollectionViewCell.swift */; };
+		3C0CCB2A25D4522D00B62708 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CCB2925D4522D00B62708 /* Extensions.swift */; };
+		3C10079825CD8A1B001F14B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10079725CD8A1B001F14B1 /* AppDelegate.swift */; };
+		3C10079A25CD8A1B001F14B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10079925CD8A1B001F14B1 /* SceneDelegate.swift */; };
+		3C10079F25CD8A1B001F14B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C10079D25CD8A1B001F14B1 /* Main.storyboard */; };
+		3C1007A125CD8A1C001F14B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1007A025CD8A1C001F14B1 /* Assets.xcassets */; };
+		3C1007A425CD8A1C001F14B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1007A225CD8A1C001F14B1 /* LaunchScreen.storyboard */; };
+		3C1007AF25CD8A1C001F14B1 /* HomeDepotChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1007AE25CD8A1C001F14B1 /* HomeDepotChallengeTests.swift */; };
+		3C1007BA25CD8A1C001F14B1 /* HomeDepotChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1007B925CD8A1C001F14B1 /* HomeDepotChallengeUITests.swift */; };
+		3C10085B25CDA1EC001F14B1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10085A25CDA1EC001F14B1 /* MainViewController.swift */; };
+		3C10086025CDA206001F14B1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10085F25CDA206001F14B1 /* MainViewModel.swift */; };
+		3C10086C25CDA291001F14B1 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10086B25CDA291001F14B1 /* Feed.swift */; };
+		3C1980D125CEE5E500AE3316 /* FeedCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1980D025CEE5E500AE3316 /* FeedCollectionViewModel.swift */; };
+		3C1980D625CEE66300AE3316 /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1980D525CEE66300AE3316 /* DataRequest.swift */; };
+		3C1980DB25CEE66F00AE3316 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1980DA25CEE66F00AE3316 /* ImageStore.swift */; };
+		3C1980E025CEE67E00AE3316 /* LinkStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1980DF25CEE67E00AE3316 /* LinkStrings.swift */; };
+		3C1980EE25CF00FB00AE3316 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1980ED25CF00FB00AE3316 /* Configurable.swift */; };
+		70F4CBD425EE45CECCA7735A /* Pods_HomeDepotChallenge_HomeDepotChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3974D629C4F26EF7EDDD4AE7 /* Pods_HomeDepotChallenge_HomeDepotChallengeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C1007AB25CD8A1C001F14B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C10078C25CD8A1B001F14B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C10079325CD8A1B001F14B1;
+			remoteInfo = HomeDepotChallenge;
+		};
+		3C1007B625CD8A1C001F14B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C10078C25CD8A1B001F14B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C10079325CD8A1B001F14B1;
+			remoteInfo = HomeDepotChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3974D629C4F26EF7EDDD4AE7 /* Pods_HomeDepotChallenge_HomeDepotChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeDepotChallenge_HomeDepotChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0CCB0B25D4455300B62708 /* NewFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C0CCB2925D4522D00B62708 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3C10079425CD8A1B001F14B1 /* HomeDepotChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeDepotChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C10079725CD8A1B001F14B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C10079925CD8A1B001F14B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C10079E25CD8A1B001F14B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C1007A025CD8A1C001F14B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C1007A325CD8A1C001F14B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C1007A525CD8A1C001F14B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1007AA25CD8A1C001F14B1 /* HomeDepotChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDepotChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1007AE25CD8A1C001F14B1 /* HomeDepotChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDepotChallengeTests.swift; sourceTree = "<group>"; };
+		3C1007B025CD8A1C001F14B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1007B525CD8A1C001F14B1 /* HomeDepotChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDepotChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1007B925CD8A1C001F14B1 /* HomeDepotChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDepotChallengeUITests.swift; sourceTree = "<group>"; };
+		3C1007BB25CD8A1C001F14B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C10085A25CDA1EC001F14B1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3C10085F25CDA206001F14B1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		3C10086B25CDA291001F14B1 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Feed.swift; path = HomeDepotChallenge/Views/Feed.swift; sourceTree = SOURCE_ROOT; };
+		3C1980D025CEE5E500AE3316 /* FeedCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewModel.swift; sourceTree = "<group>"; };
+		3C1980D525CEE66300AE3316 /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		3C1980DA25CEE66F00AE3316 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		3C1980DF25CEE67E00AE3316 /* LinkStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkStrings.swift; sourceTree = "<group>"; };
+		3C1980ED25CF00FB00AE3316 /* Configurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		3D6AC8FE98B65B07B86655A1 /* Pods-HomeDepotChallenge-HomeDepotChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeDepotChallenge-HomeDepotChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-HomeDepotChallenge-HomeDepotChallengeUITests/Pods-HomeDepotChallenge-HomeDepotChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BD517E59F029E631A97BB07 /* Pods-HomeDepotChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeDepotChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-HomeDepotChallengeTests/Pods-HomeDepotChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		624D301C3B1C2473684DA472 /* Pods-HomeDepotChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeDepotChallenge.release.xcconfig"; path = "Target Support Files/Pods-HomeDepotChallenge/Pods-HomeDepotChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		91242F7244B4EE61F5B3355B /* Pods_HomeDepotChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeDepotChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A467F50F460F87713579BB5 /* Pods_HomeDepotChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeDepotChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D569EFDC2FD592CFABB0B0 /* Pods-HomeDepotChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeDepotChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-HomeDepotChallengeTests/Pods-HomeDepotChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		BAE8D5717B52654EB8B5C91F /* Pods-HomeDepotChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeDepotChallenge.debug.xcconfig"; path = "Target Support Files/Pods-HomeDepotChallenge/Pods-HomeDepotChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		D35F6BB4FC2FFC82B5ABED28 /* Pods-HomeDepotChallenge-HomeDepotChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeDepotChallenge-HomeDepotChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-HomeDepotChallenge-HomeDepotChallengeUITests/Pods-HomeDepotChallenge-HomeDepotChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C10079125CD8A1B001F14B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319ADAA2D628490941BBEAAC /* Pods_HomeDepotChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1007A725CD8A1C001F14B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E80859DE147E9019951ADF /* Pods_HomeDepotChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1007B225CD8A1C001F14B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F4CBD425EE45CECCA7735A /* Pods_HomeDepotChallenge_HomeDepotChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C10078B25CD8A1B001F14B1 = {
+			isa = PBXGroup;
+			children = (
+				3C10079625CD8A1B001F14B1 /* HomeDepotChallenge */,
+				3C1007AD25CD8A1C001F14B1 /* HomeDepotChallengeTests */,
+				3C1007B825CD8A1C001F14B1 /* HomeDepotChallengeUITests */,
+				3C10079525CD8A1B001F14B1 /* Products */,
+				560449B739D28233EFBE6AE0 /* Pods */,
+				AE746F4E0EA198E2E71F998A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C10079525CD8A1B001F14B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C10079425CD8A1B001F14B1 /* HomeDepotChallenge.app */,
+				3C1007AA25CD8A1C001F14B1 /* HomeDepotChallengeTests.xctest */,
+				3C1007B525CD8A1C001F14B1 /* HomeDepotChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C10079625CD8A1B001F14B1 /* HomeDepotChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				3C1007CA25CD8A28001F14B1 /* Models */,
+				3C1007CB25CD8A2C001F14B1 /* Views */,
+				3C1007CF25CD8A32001F14B1 /* ViewModels */,
+				3C1007D025CD8A43001F14B1 /* Controllers */,
+				3C1007D125CD8A4A001F14B1 /* Utilities */,
+				3C10085525CDA19B001F14B1 /* Storyboards */,
+				3C10085625CDA1B1001F14B1 /* Delegates */,
+				3C1007A025CD8A1C001F14B1 /* Assets.xcassets */,
+				3C1007A525CD8A1C001F14B1 /* Info.plist */,
+			);
+			path = HomeDepotChallenge;
+			sourceTree = "<group>";
+		};
+		3C1007AD25CD8A1C001F14B1 /* HomeDepotChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C1007AE25CD8A1C001F14B1 /* HomeDepotChallengeTests.swift */,
+				3C1007B025CD8A1C001F14B1 /* Info.plist */,
+			);
+			path = HomeDepotChallengeTests;
+			sourceTree = "<group>";
+		};
+		3C1007B825CD8A1C001F14B1 /* HomeDepotChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C1007B925CD8A1C001F14B1 /* HomeDepotChallengeUITests.swift */,
+				3C1007BB25CD8A1C001F14B1 /* Info.plist */,
+			);
+			path = HomeDepotChallengeUITests;
+			sourceTree = "<group>";
+		};
+		3C1007CA25CD8A28001F14B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C10086B25CDA291001F14B1 /* Feed.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C1007CB25CD8A2C001F14B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C0CCB0B25D4455300B62708 /* NewFeedCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C1007CF25CD8A32001F14B1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3C10085F25CDA206001F14B1 /* MainViewModel.swift */,
+				3C1980D025CEE5E500AE3316 /* FeedCollectionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3C1007D025CD8A43001F14B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C10085A25CDA1EC001F14B1 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3C1007D125CD8A4A001F14B1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3C1980D525CEE66300AE3316 /* DataRequest.swift */,
+				3C1980DA25CEE66F00AE3316 /* ImageStore.swift */,
+				3C1980DF25CEE67E00AE3316 /* LinkStrings.swift */,
+				3C1980ED25CF00FB00AE3316 /* Configurable.swift */,
+				3C0CCB2925D4522D00B62708 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3C10085525CDA19B001F14B1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3C10079D25CD8A1B001F14B1 /* Main.storyboard */,
+				3C1007A225CD8A1C001F14B1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3C10085625CDA1B1001F14B1 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3C10079925CD8A1B001F14B1 /* SceneDelegate.swift */,
+				3C10079725CD8A1B001F14B1 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		560449B739D28233EFBE6AE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAE8D5717B52654EB8B5C91F /* Pods-HomeDepotChallenge.debug.xcconfig */,
+				624D301C3B1C2473684DA472 /* Pods-HomeDepotChallenge.release.xcconfig */,
+				3D6AC8FE98B65B07B86655A1 /* Pods-HomeDepotChallenge-HomeDepotChallengeUITests.debug.xcconfig */,
+				D35F6BB4FC2FFC82B5ABED28 /* Pods-HomeDepotChallenge-HomeDepotChallengeUITests.release.xcconfig */,
+				5BD517E59F029E631A97BB07 /* Pods-HomeDepotChallengeTests.debug.xcconfig */,
+				A6D569EFDC2FD592CFABB0B0 /* Pods-HomeDepotChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE746F4E0EA198E2E71F998A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91242F7244B4EE61F5B3355B /* Pods_HomeDepotChallenge.framework */,
+				3974D629C4F26EF7EDDD4AE7 /* Pods_HomeDepotChallenge_HomeDepotChallengeUITests.framework */,
+				9A467F50F460F87713579BB5 /* Pods_HomeDepotChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C10079325CD8A1B001F14B1 /* HomeDepotChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1007BE25CD8A1C001F14B1 /* Build configuration list for PBXNativeTarget "HomeDepotChallenge" */;
+			buildPhases = (
+				16A13910A9689DA10E3140F4 /* [CP] Check Pods Manifest.lock */,
+				3C10079025CD8A1B001F14B1 /* Sources */,
+				3C10079125CD8A1B001F14B1 /* Frameworks */,
+				3C10079225CD8A1B001F14B1 /* Resources */,
+				3C1980FC25CF18F600AE3316 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeDepotChallenge;
+			productName = HomeDepotChallenge;
+			productReference = 3C10079425CD8A1B001F14B1 /* HomeDepotChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C1007A925CD8A1C001F14B1 /* HomeDepotChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1007C125CD8A1C001F14B1 /* Build configuration list for PBXNativeTarget "HomeDepotChallengeTests" */;
+			buildPhases = (
+				F698F8D7BE0D1C6672EDE0EC /* [CP] Check Pods Manifest.lock */,
+				3C1007A625CD8A1C001F14B1 /* Sources */,
+				3C1007A725CD8A1C001F14B1 /* Frameworks */,
+				3C1007A825CD8A1C001F14B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C1007AC25CD8A1C001F14B1 /* PBXTargetDependency */,
+			);
+			name = HomeDepotChallengeTests;
+			productName = HomeDepotChallengeTests;
+			productReference = 3C1007AA25CD8A1C001F14B1 /* HomeDepotChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C1007B425CD8A1C001F14B1 /* HomeDepotChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1007C425CD8A1C001F14B1 /* Build configuration list for PBXNativeTarget "HomeDepotChallengeUITests" */;
+			buildPhases = (
+				3AA10E4ACF8A892DB9528748 /* [CP] Check Pods Manifest.lock */,
+				3C1007B125CD8A1C001F14B1 /* Sources */,
+				3C1007B225CD8A1C001F14B1 /* Frameworks */,
+				3C1007B325CD8A1C001F14B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C1007B725CD8A1C001F14B1 /* PBXTargetDependency */,
+			);
+			name = HomeDepotChallengeUITests;
+			productName = HomeDepotChallengeUITests;
+			productReference = 3C1007B525CD8A1C001F14B1 /* HomeDepotChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C10078C25CD8A1B001F14B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3C10079325CD8A1B001F14B1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3C1007A925CD8A1C001F14B1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3C10079325CD8A1B001F14B1;
+					};
+					3C1007B425CD8A1C001F14B1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3C10079325CD8A1B001F14B1;
+					};
+				};
+			};
+			buildConfigurationList = 3C10078F25CD8A1B001F14B1 /* Build configuration list for PBXProject "HomeDepotChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C10078B25CD8A1B001F14B1;
+			productRefGroup = 3C10079525CD8A1B001F14B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C10079325CD8A1B001F14B1 /* HomeDepotChallenge */,
+				3C1007A925CD8A1C001F14B1 /* HomeDepotChallengeTests */,
+				3C1007B425CD8A1C001F14B1 /* HomeDepotChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C10079225CD8A1B001F14B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1007A425CD8A1C001F14B1 /* LaunchScreen.storyboard in Resources */,
+				3C1007A125CD8A1C001F14B1 /* Assets.xcassets in Resources */,
+				3C10079F25CD8A1B001F14B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1007A825CD8A1C001F14B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1007B325CD8A1C001F14B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16A13910A9689DA10E3140F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeDepotChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AA10E4ACF8A892DB9528748 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeDepotChallenge-HomeDepotChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C1980FC25CF18F600AE3316 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		F698F8D7BE0D1C6672EDE0EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeDepotChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C10079025CD8A1B001F14B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C10085B25CDA1EC001F14B1 /* MainViewController.swift in Sources */,
+				3C10086C25CDA291001F14B1 /* Feed.swift in Sources */,
+				3C1980E025CEE67E00AE3316 /* LinkStrings.swift in Sources */,
+				3C10079825CD8A1B001F14B1 /* AppDelegate.swift in Sources */,
+				3C1980D125CEE5E500AE3316 /* FeedCollectionViewModel.swift in Sources */,
+				3C1980EE25CF00FB00AE3316 /* Configurable.swift in Sources */,
+				3C1980DB25CEE66F00AE3316 /* ImageStore.swift in Sources */,
+				3C0CCB2A25D4522D00B62708 /* Extensions.swift in Sources */,
+				3C10079A25CD8A1B001F14B1 /* SceneDelegate.swift in Sources */,
+				3C10086025CDA206001F14B1 /* MainViewModel.swift in Sources */,
+				3C1980D625CEE66300AE3316 /* DataRequest.swift in Sources */,
+				3C0CCB0C25D4455300B62708 /* NewFeedCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1007A625CD8A1C001F14B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1007AF25CD8A1C001F14B1 /* HomeDepotChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1007B125CD8A1C001F14B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1007BA25CD8A1C001F14B1 /* HomeDepotChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C1007AC25CD8A1C001F14B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C10079325CD8A1B001F14B1 /* HomeDepotChallenge */;
+			targetProxy = 3C1007AB25CD8A1C001F14B1 /* PBXContainerItemProxy */;
+		};
+		3C1007B725CD8A1C001F14B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C10079325CD8A1B001F14B1 /* HomeDepotChallenge */;
+			targetProxy = 3C1007B625CD8A1C001F14B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C10079D25CD8A1B001F14B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C10079E25CD8A1B001F14B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C1007A225CD8A1C001F14B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1007A325CD8A1C001F14B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C1007BC25CD8A1C001F14B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C1007BD25CD8A1C001F14B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C1007BF25CD8A1C001F14B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE8D5717B52654EB8B5C91F /* Pods-HomeDepotChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HomeDepotChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = theyallrunners.HomeDepotChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C1007C025CD8A1C001F14B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 624D301C3B1C2473684DA472 /* Pods-HomeDepotChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HomeDepotChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = theyallrunners.HomeDepotChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C1007C225CD8A1C001F14B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD517E59F029E631A97BB07 /* Pods-HomeDepotChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R2B3VGL8X;
+				INFOPLIST_FILE = HomeDepotChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = theyallrunners.HomeDepotChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeDepotChallenge.app/HomeDepotChallenge";
+			};
+			name = Debug;
+		};
+		3C1007C325CD8A1C001F14B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D569EFDC2FD592CFABB0B0 /* Pods-HomeDepotChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R2B3VGL8X;
+				INFOPLIST_FILE = HomeDepotChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = theyallrunners.HomeDepotChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeDepotChallenge.app/HomeDepotChallenge";
+			};
+			name = Release;
+		};
+		3C1007C525CD8A1C001F14B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6AC8FE98B65B07B86655A1 /* Pods-HomeDepotChallenge-HomeDepotChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R2B3VGL8X;
+				INFOPLIST_FILE = HomeDepotChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = theyallrunners.HomeDepotChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeDepotChallenge;
+			};
+			name = Debug;
+		};
+		3C1007C625CD8A1C001F14B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D35F6BB4FC2FFC82B5ABED28 /* Pods-HomeDepotChallenge-HomeDepotChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R2B3VGL8X;
+				INFOPLIST_FILE = HomeDepotChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = theyallrunners.HomeDepotChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeDepotChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C10078F25CD8A1B001F14B1 /* Build configuration list for PBXProject "HomeDepotChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1007BC25CD8A1C001F14B1 /* Debug */,
+				3C1007BD25CD8A1C001F14B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C1007BE25CD8A1C001F14B1 /* Build configuration list for PBXNativeTarget "HomeDepotChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1007BF25CD8A1C001F14B1 /* Debug */,
+				3C1007C025CD8A1C001F14B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C1007C125CD8A1C001F14B1 /* Build configuration list for PBXNativeTarget "HomeDepotChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1007C225CD8A1C001F14B1 /* Debug */,
+				3C1007C325CD8A1C001F14B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C1007C425CD8A1C001F14B1 /* Build configuration list for PBXNativeTarget "HomeDepotChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1007C525CD8A1C001F14B1 /* Debug */,
+				3C1007C625CD8A1C001F14B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C10078C25CD8A1B001F14B1 /* Project object */;
+}

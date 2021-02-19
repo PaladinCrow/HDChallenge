@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_HomeDepotChallenge_HomeDepotChallengeUITests : NSObject
+@end
+@implementation PodsDummy_Pods_HomeDepotChallenge_HomeDepotChallengeUITests
+@end
